@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class PlayerLookAround : MonoBehaviour
+public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] Transform bodyTransform;
     [SerializeField] float mouseSensitivity = 300f;
